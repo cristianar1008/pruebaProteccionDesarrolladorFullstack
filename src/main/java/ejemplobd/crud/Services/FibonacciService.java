@@ -38,7 +38,7 @@ public class FibonacciService {
         fibonacciRepository.save(fibonacci);
 
         // Enviar correo con la secuencia generada
-        emailService.sendFibonacciEmail("cparra@esri.co", fibonacci.getListFibonacci().toString());
+        emailService.sendFibonacciEmail("didier.correa@proteccion.com.co", fibonacci.getListFibonacci().toString());
 
         return fibonacci;
     }
